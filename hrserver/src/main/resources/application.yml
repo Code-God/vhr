@@ -1,0 +1,12 @@
+server:
+  port: 8091
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://47.98.150.108:3306/vhr?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: Biao@123
+mybatis:
+  config-location: classpath:/mybatis-config.xml
+
